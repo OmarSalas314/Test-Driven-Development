@@ -6,10 +6,10 @@ describe("Test Tests fot Spiderman class", () => {
       const andrewGarfield = new Spiderman("Spiderman Sony", 31, "Andrew Garfield", 2, "Sony")
 
       //Validamos que este codigo funcione de la forma esperada
-      expect(andrewGarfield.namemovie).toBe("Spiderman Sony")
+      expect(andrewGarfield.namemovie).toBe("Spiderman Sorny")
       expect(andrewGarfield.age).toBe(31)
-      expect(andrewGarfield.name).toBe("Andrew Garfield")
-      expect(andrewGarfield.numbmov).toBe(2)
+      expect(andrewGarfield.name).toBe("Andrew Garfieldddddddddddd")
+      expect(andrewGarfield.numbmov).toBe(22)
       expect(andrewGarfield.produc).toBe("Sony")
     });
   })
