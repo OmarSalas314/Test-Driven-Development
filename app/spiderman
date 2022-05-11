@@ -1,3 +1,11 @@
-class Spiderman{}
+class Spiderman{
+    constructor(namemovie, age, name, numbmov, produc)
+    {this.namemovie = namemovie
+    this.age = age
+    this.name = name
+    this.numbmov = numbmov
+    this.produc = produc}
+    
+    }
 
 module.exports = Spiderman
